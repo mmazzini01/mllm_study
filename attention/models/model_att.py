@@ -424,7 +424,7 @@ class ModelAttentionExtractor:
 
     @staticmethod
     def save_attention_df(attention_trials, texts_trials, path_folder):
-''        for trial, attention_layer in attention_trials.items():
+        for trial, attention_layer in attention_trials.items():
             path_folder_trial = path_folder + "trial_" + str(trial)
             if not os.path.exists(path_folder_trial):
                 os.makedirs(path_folder_trial)

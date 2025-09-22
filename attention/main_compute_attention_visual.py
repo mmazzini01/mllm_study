@@ -25,12 +25,11 @@ if __name__ == "__main__":
     models = {
         # -----------------------------------------------
         "llava-hf/llava-1.5-7b-hf": "causalLM",
-        "llava-hf/llava-1.5-13b-hf": "causalLM",
-        
+        "llava-hf/llava-1.5-13b-hf": "causalLM", 
     }
     method = args.method
     if method == 'rollout':
-            folder = 'attention_rollout/'
+            folder = 'normal/'
     else:
         folder = 'attention/'
     cwd = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -66,13 +65,13 @@ if __name__ == "__main__":
         att_extractor = ModelVisualAttentionExtractor(model_name, model_type, folder_path_attention)
         # prompts_words = {'20': prompts_words['20']}
         #compute attention for prompts
-        # attention_trials_image, attention_trials_text, info = att_extractor.extract_attention(
-        #     prompts_words, images_trials_paths=images_trials_paths,
-        #     attention_method=method
-        # )
+        attention_trials_image, attention_trials_text, info = att_extractor.extract_attention(
+            prompts_words, images_trials_paths=images_trials_paths,
+            attention_method=method
+        )
 
-        # att_extractor.save_attention_trials_image(images_trials_paths, attention_trials_image, info, folder_path_attention + "saliency/")
-        # att_extractor.save_attention_df(attention_trials_text, prompts_words, folder_path_attention)
+        att_extractor.save_attention_trials_image(images_trials_paths, attention_trials_image, info, folder_path_attention + "saliency/")
+        att_extractor.save_attention_df(attention_trials_text, prompts_words, folder_path_attention)
 
         #compute attention for responses
         attention_trials_text = att_extractor.extract_attention_only_text(

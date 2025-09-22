@@ -28,7 +28,7 @@ from scipy.stats import ttest_rel
 
 
 class CompareAttention:
-    def __init__(self, model_name, model_type, path):
+    def __init__(self, model_name, model_type, path, preference ='model'):
         self.model_name = model_name
         self.path = path
         self.model_type = model_type
@@ -39,6 +39,12 @@ class CompareAttention:
             "first_fix_duration_n": "FFD",
             "fix_number": "nFix",
         }
+        cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        trials_info_labels = pd.read_csv(cwd + "/data/raw/trials_info_labels.csv")
+        self.labels = {}
+        self.preference = preference
+        for idx, row in trials_info_labels.iterrows():
+            self.labels[int(row['Trial'])] = row['Chosen_user'] if preference == 'user' else row['Model']
 
     @staticmethod
     def compare_between_models_per_userset(
@@ -91,15 +97,29 @@ class CompareAttention:
         counter = 1
         for file in file_paths:
             match = re.search(pattern, str(file))
+          
             if (
                 match
-                and results_folder not in str(file)
+                and 'attention/results' not in str(file)
                 and "chosen" not in str(file)
                 and "rejected" not in str(file)
+                and 'all' in str(file)
             ):
-                print(counter, ":", file)
+                # Extract trial number from file path using regex
+                trial_match = re.search(r'trial_(\d+\.?\d*)', str(file))
+                if trial_match:
+                    trial_number = trial_match.group(1)
+                    if float(trial_number).is_integer():
+                        print(f"Squipping trial: {trial_number}")
+                        continue
+                    print(f"Found trial number: {trial_number}")
+                model_name = str(file).split("/")[-3]
+                print(counter, ":", file, model_name)
                 data = pd.read_csv(file, sep=";", index_col=0)
-                data_models[str(file).split("/")[-3]] = data.loc[data["mean"].idxmax()]
+                try:
+                    data_models[model_name] = data.loc[data["mean"].idxmax()]
+                except:
+                    data_models[model_name] = 0
                 counter += 1
 
         # create row with the mean of all rows
@@ -166,9 +186,8 @@ class CompareAttention:
 
     @staticmethod
     def compare_between_models_chosenrejected_per_trials(
-        folder, gaze_feature="fix_duration_n", filter_completed=False
+        folder, gaze_feature="fix_duration_n"
     ):
-        folder_filter = "completed" if filter_completed else "not_filtered"
         results_folder = "results"
         tags_chosen_rejected = ["chosen", "rejected"]
         for tag_chosen_rejected in tags_chosen_rejected:
@@ -178,34 +197,31 @@ class CompareAttention:
             text = (
                 tag_chosen_rejected
                 + "/"
-                + folder_filter
-                + "/"
                 + "correlation_trials_"
-                + str(gaze_feature)
-                + ".csv"
+                + str(gaze_feature)+ ".csv"
             )
             pattern = re.escape(text)
             data_models, data_models_all = {}, {}
             counter = 1
             for file in file_paths:
                 match = re.search(pattern, str(file))
-                if match and results_folder not in str(file):
+                if match and 'attention/results' not in str(file):
                     print(counter, ":", file)
                     data = pd.read_csv(file, sep=";", index_col=0)
-                    data_all = pd.read_csv(
-                        str(file).replace(
-                            "correlation_trials_", "correlation_trials_all"
-                        ),
-                        sep=";",
-                        index_col=0,
-                    )
+                    # data_all = pd.read_csv(
+                    #     str(file).replace(
+                    #         "correlation_trials_", "correlation_trials_all"
+                    #     ),
+                    #     sep=";",
+                    #     index_col=0,
+                    # )
                     max_layer = data["mean"].idxmax()
-                    data_models[str(file).split("/")[-4]] = data.loc[max_layer]
-                    data_models_all[str(file).split("/")[-4]] = data_all.loc[max_layer]
+                    data_models[str(file).split("/")[-3]] = data.loc[max_layer]
+                    # data_models_all[str(file).split("/")[-3]] = data_all.loc[max_layer]
                     counter += 1
             # create row with the mean of all rows
             data_models = pd.DataFrame(data_models)
-            data_models_all = pd.DataFrame(data_models_all)
+            # data_models_all = pd.DataFrame(data_models_all)
 
             folder_tag = (
                 str(folder)
@@ -214,8 +230,6 @@ class CompareAttention:
                 + "/"
                 + str(tag_chosen_rejected)
                 + "/"
-                + str(folder_filter)
-                + "/"
             )
             if not os.path.exists(folder_tag):
                 os.makedirs(folder_tag)
@@ -223,10 +237,10 @@ class CompareAttention:
                 folder_tag + "correlation_trials_" + str(gaze_feature) + ".csv",
                 sep=";",
             )
-            data_models_all.to_csv(
-                folder_tag + "correlation_trials_alldata" + str(gaze_feature) + ".csv",
-                sep=";",
-            )
+            # data_models_all.to_csv(
+            #     folder_tag + "correlation_trials_alldata" + str(gaze_feature) + ".csv",
+            #     sep=";",
+            # )
 
     @staticmethod
     def compute_posthoc_comparisons_correlation(df_chosen, df_rejected):
@@ -328,7 +342,7 @@ class CompareAttention:
         for trial in list(gaze_features_layer.keys()):
             if float(trial) in model_attention_layer.keys():
                 # Compute Spearman correlation
-                if len(filter_trials) > 0 and float(trial) not in filter_trials:
+                if len(filter_trials) > 0 and str(trial) not in filter_trials:
                     continue
                 sc, p_value = spearmanr(
                     gaze_features_layer[trial][gaze_feature].values,
@@ -389,9 +403,9 @@ class CompareAttention:
         folder_attention="attention",
         folder_filter="all",
     ):
-
+        filter_cr = folder_filter if folder_filter in['chosen', 'rejected'] else False
         sc_users_all, _ = self.compute_sc_all_userset(
-            gaze_feature=gaze_feature,
+            gaze_feature=gaze_feature, filter_cr=filter_cr
         )
         df = pd.DataFrame(sc_users_all).T
         df.rename(columns={df.columns[0]: "mean", df.columns[1]: "std"}, inplace=True)
@@ -542,24 +556,23 @@ class CompareAttention:
         attention_trials = ModelAttentionExtractor.load_attention_df(
             folder_path_attention
         )
-
+        #read data/raw/trials_info_labels.csv
+        trials = list(real_gaze_fixations.keys())
+        filter_trials_user = [trial for trial in trials if not float(trial).is_integer()]
         # -------------------------------------------
         # filter for the chosen and the rejected ones
-        # if filter_cr == "chosen":
-        #     # remove all trials dont end with .1
-        #     filter_trials_user = [
-        #         trial for trial in filter_trials_user if str(trial).endswith(".1")
-        #     ]
-        # elif filter_cr == "rejected":
-        #     # remove all trials dont end with .1
-        #     filter_trials_user = [
-        #         trial
-        #         for trial in filter_trials_user
-        #         if not str(trial).endswith(".1")
-        #     ]
-        # filter_trials.extend(filter_trials_user)
+        if filter_cr == "chosen":
+            print('fil filter by chosen:len before', len(filter_trials_user))
+            filter_trials_user = [
+                trial for trial in filter_trials_user if float(trial) in list(self.labels.values())
+            ]
+        elif filter_cr == "rejected":
+            print('fil filter by rejected:len before', len(filter_trials_user))
+            filter_trials_user = [
+                trial for trial in filter_trials_user if float(trial) not in list(self.labels.values())
+            ]
+        print('filter_trials_user', len(filter_trials_user))
         # -------------------------------------------
-
         sc_layers, sc_layers_all = {}, {}
         for layer in list(list(attention_trials.values())[0].keys()):
             mean_spearman, std_spearman, all_spearman = self.compute_sc_layer(
@@ -567,7 +580,7 @@ class CompareAttention:
                 attention_trials,
                 gaze_feature=gaze_feature,
                 layer=layer,
-                filter_trials=[],
+                filter_trials=filter_trials_user,
             )
             sc_layers[layer] = [mean_spearman, std_spearman]
             sc_layers_all[layer] = all_spearman

@@ -23,13 +23,15 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     folder_attention = args.folder_attention
-
+    preference = 'model'
     # folder_attention = "attention"
     # filter_completed = False
 
-    path = "results/et/"
+    path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/results/et/"
     models = {
         # -----------------------------------------------
+        "llava-hf/llava-1.5-7b-hf": "causalLM",
+        "llava-hf/llava-1.5-13b-hf": "causalLM", 
         "google-bert/bert-base-uncased": "BertBased",
         "google-bert/bert-large-uncased": "BertBased",
         # "google-bert/bert-base-cased": "BertBased",
@@ -45,11 +47,6 @@ if __name__ == "__main__":
         "meta-llama/Meta-Llama-3-8B-Instruct": "causalLM",
         # "meta-llama/Llama-3.1-8B": "causalLM",
         # "meta-llama/Llama-3.1-8B-Instruct": "causalLM",
-        #-----------------------------------------------
-        # "microsoft/phi-1_5": "causalLM",
-        # "openbmb/UltraRM-13b": "ultraRM",
-        # "openbmb/Eurus-RM-7b": "eurus",
-        # "nicolinho/QRM-Llama3.1-8B": "QRLlama",
     }
     gaze_features = [
         "fix_duration_n",
@@ -64,33 +61,46 @@ if __name__ == "__main__":
         for model_name, model_type in models.items():
             print(model_name)
             sc_users = CompareAttention(
-                model_name=model_name, model_type=model_type, path=path
+                model_name=model_name, model_type=model_type, path=path, preference=preference
             ).compute_sc_model_per_trial(
-                gaze_feature=gaze_feature, folder_attention=folder_attention,
+                gaze_feature=gaze_feature, folder_attention=folder_attention,folder_filter='all'
             )
-        # compute results of all models
+    #     # compute results of all models
         CompareAttention.compare_between_models_per_trials(
             folder=path + folder_attention + "/",
             gaze_feature=gaze_feature,
-
         )
     # ----------------------------------------
 
     # compute per chosen an rejected
     # ----------------------------------------
-    # for gaze_feature in gaze_features:
-    #     # print(f"Compute per chosen and rejected for gaze feature:{gaze_feature}")
-    #     for model_name, model_type in models.items():
-    #         print(model_name)
-    #         sc_users = CompareAttention(
-    #             model_name=model_name, model_type=model_type, path=path
-    #         ).compute_sc_model_chosenrejected_per_trials(
-    #             gaze_feature=gaze_feature,
-    #             folder_attention=folder_attention,
-    #         )
-    #     # # compute results of all models
-    #     CompareAttention.compare_between_models_chosenrejected_per_trials(
-    #         folder=path + folder_attention + "/",
-    #         gaze_feature=gaze_feature,
-    #     )
+    for gaze_feature in gaze_features:
+        # print(f"Compute per chosen and rejected for gaze feature:{gaze_feature}")
+        for model_name, model_type in models.items():
+            print(model_name)
+            # sc_users = CompareAttention(
+            #     model_name=model_name, model_type=model_type, path=path
+            # ).compute_sc_model_chosenrejected_per_trials(
+            #     gaze_feature=gaze_feature,
+            #     folder_attention=folder_attention,
+            # )
+        # compute results of all models
+        for model_name, model_type in models.items():
+            print(model_name)
+            sc_users = CompareAttention(
+                model_name=model_name, model_type=model_type, path=path, preference=preference
+            ).compute_sc_model_per_trial(
+                gaze_feature=gaze_feature, folder_attention=folder_attention,folder_filter='chosen'
+            )
+        for model_name, model_type in models.items():
+            print(model_name)
+            sc_users = CompareAttention(
+                model_name=model_name, model_type=model_type, path=path, preference=preference
+            ).compute_sc_model_per_trial(
+                gaze_feature=gaze_feature, folder_attention=folder_attention,folder_filter='rejected'
+            )
+        CompareAttention.compare_between_models_chosenrejected_per_trials(
+            folder=path + folder_attention + "/",
+            gaze_feature=gaze_feature,
+        )
     # ----------------------------------------
