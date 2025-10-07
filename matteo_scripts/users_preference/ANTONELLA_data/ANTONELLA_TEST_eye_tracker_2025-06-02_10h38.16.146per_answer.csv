@@ -1,0 +1,360 @@
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+4,4.1,"The image is a compilation of four photos, each depicting a man performing a trick on a skateboard. The man is wearing a black shirt and jeans throughout the sequence. In the first photo, the man is at the top of a ramp, preparing to drop in and ride his skateboard down the ramp. The following three photos show him in mid-air, executing a trick that involves jumping over a ledge. The sequence captures the motion and excitement of the skateboarder's performance.",4,Qwen-VL-Chat,4,13.179946799995378,4,8.215067599900067,4,25.76093679992482,,space,83.00134499999695,,space,1.7634660999756306,Qwen-VL-Chat,4.1,4.0,4,The image is a compilation of four photos, each depicting a man performing a trick on a skateboard. The man is wearing a black shirt and jeans throughout the sequence. In the first photo, the man is at the top of a ramp, preparing to drop in and ride his skateboard down the ramp. The following three photos show him in mid-air, executing a trick that involves jumping over a ledge. The sequence captures the motion and excitement of the skateboarder's performance.,0,0,0
+4,4.2,"The image is a collage of six different shots featuring a skateboarder performing various tricks on a skateboard. The skateboarder is captured in different positions and stages of the tricks, showcasing their skills and the progression of the stunts. In each of the six shots, the skateboarder is wearing a black shirt, and the skateboard is visible in various positions throughout the collage. The skateboarder is captured in different stages of the tricks, from the initial approach to the peak of the stunt and the landing. The collage captures the essence of the skateboarder's performance and the excitement of the sport.",4.666666666666667,llava1.5-13b,5,1.5417467998340726,5,3.226596800144762,5,4.390190599951893,,space,43.87536159995943,,space,0.7710356998723,llava1.5-13b,4.2,4.666666666666667,4,The image is a collage of six different shots featuring a skateboarder performing various tricks on a skateboard. The skateboarder is captured in different positions and stages of the tricks, showcasing their skills and the progression of the stunts. In each of the six shots, the skateboarder is wearing a black shirt, and the skateboard is visible in various positions throughout the collage. The skateboarder is captured in different stages of the tricks, from the initial approach to the peak of the stunt and the landing. The collage captures the essence of the skateboarder's performance and the excitement of the sport.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+10,10.1,"A possible reason the people in the image are playing Wii at work could be that they enjoy spending time together, engaging in fun activities, and fostering a sense of camaraderie. Wii games often involve physical movements, which can help relieve stress, promote teamwork, and enhance communication among players. By playing together, they share a common interest in a fun and interactive way, which can contribute to a positive work environment. Additionally, playing Wii at work might encourage employees to engage in more physical activity, which can lead to improved health and well-being.",5,fuyu-8b,4,7.15747580002062,3,11.564854399999604,4,14.639807800063863,,space,30.470326999900863,,space,0.6641306998208165,gpt-4v,10.2,4.333333333333333,10,It looks like the people in the image are enjoying a game on the Wii, which could be part of a team-building activity or a break to foster a positive work environment. Companies sometimes use gaming as a way to encourage collaboration, relieve stress, and improve employee relations. It's also possible that this is a special event or celebration, or that the company encourages short gaming breaks to boost creativity and productivity.,0,0,0
+10,10.2,"It looks like the people in the image are enjoying a game on the Wii, which could be part of a team-building activity or a break to foster a positive work environment. Companies sometimes use gaming as a way to encourage collaboration, relieve stress, and improve employee relations. It's also possible that this is a special event or celebration, or that the company encourages short gaming breaks to boost creativity and productivity.",4.333333333333333,gpt-4v,5,4.357586700003594,4,6.4159627999179065,5,7.475432700011879,,space,41.7410742000211,,space,0.5149564000312239,fuyu-8b,10.1,5.0,10,A possible reason the people in the image are playing Wii at work could be that they enjoy spending time together, engaging in fun activities, and fostering a sense of camaraderie. Wii games often involve physical movements, which can help relieve stress, promote teamwork, and enhance communication among players. By playing together, they share a common interest in a fun and interactive way, which can contribute to a positive work environment. Additionally, playing Wii at work might encourage employees to engage in more physical activity, which can lead to improved health and well-being.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+1,1.1,The name of the school mentioned in the image is Witch School.,5,Qwen-VL-Chat,1,11.814239099854603,1,14.056255599949509,2,8.603226199978963,,space,18.01696419995278,,space,16.373307300033048,VisualGLM-6b,1.2,2,1,The image shows a book called "Witch School" with an old witch's hat on it. It has been written by a person named "J." and appears to be published by a company known as "The Witches' Hat Company," which may have multiple titles under that name.,0,0,0
+1,1.2,"The image shows a book called "Witch School" with an old witch's hat on it. It has been written by a person named "J." and appears to be published by a company known as "The Witches' Hat Company," which may have multiple titles under that name.",2,VisualGLM-6b,5,1.1204916001297534,5,1.7616326999850571,5,2.487215500092134,,space,2.3094685999676585,,space,0.4645299001131207,Qwen-VL-Chat,1.1,5,1,The name of the school mentioned in the image is Witch School.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+17,17.1,Julius Kuhn-Institutt,3.333333333333333,fuyu-8b,2,1.5277625999879092,3,3.353060800116509,3,4.50011539994739,,space,12.074343099957332,,space,0.45963159995153546,VisualGLM-6b,17.2,2.333333333333333,17,The full name of this Institute is "Juilliard University". It was established by a group of students from different universities and institutions, including Juilliard School of Music, where they were studying music theory and composition.,0,0,0
+17,17.2,"The full name of this Institute is "Juilliard University". It was established by a group of students from different universities and institutions, including Juilliard School of Music, where they were studying music theory and composition.",2.333333333333333,VisualGLM-6b,5,1.3291753998491913,5,1.8924950999207795,5,2.5901329999323934,,space,0.9502864999230951,,space,0.16362920007668436,fuyu-8b,17.1,3.333333333333333,17,Julius Kuhn-Institutt,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+13,13.1,The bowl in the image is small.,2.333333333333333,llava1.5-7b,2,1.6090807998552918,2,5.068490500096232,1,7.755768700037152,,space,3.1802801000885665,,space,2.1414846000261605,llava1.5-7b,13.1,2.333333333333333,13,The bowl in the image is small.,0,0,0
+13,13.2,"The bowl in the image contains miniature items, as indicated by the comparison with the penny. To provide an accurate estimate of the bowl's size, I would need to know the dimensions of the coin, which appears to be a U.S. penny. U.S. pennies have a diameter of 0.75 inches (19.05 mm). By comparing the bowl with the penny, we can visually estimate that the bowl is slightly more than twice the diameter of the penny, making the bowl approximately 1.5 to 2 inches in diameter. However, this is a rough estimate, and the actual size could vary.",3.333333333333333,gpt-4v,5,5.767261599889025,5,4.1366965000052005,4,7.449094800045714,,space,26.33333329996094,,space,1.289332800079137,gpt-4v,13.2,3.333333333333333,13,The bowl in the image contains miniature items, as indicated by the comparison with the penny. To provide an accurate estimate of the bowl's size, I would need to know the dimensions of the coin, which appears to be a U.S. penny. U.S. pennies have a diameter of 0.75 inches (19.05 mm). By comparing the bowl with the penny, we can visually estimate that the bowl is slightly more than twice the diameter of the penny, making the bowl approximately 1.5 to 2 inches in diameter. However, this is a rough estimate, and the actual size could vary.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+28,28.1,"My goal is not to be better than anyone else, but rather to use my own abilities and passions in order to achieve success. I am a person who values self-improvement and growth as much as others do. The phrase "my goal is not to be better than anyone else" reflects my determination for personal development and progress. It emphasizes that I will strive to improve myself regardless of external factors or competition.",2.333333333333333,VisualGLM-6b,5,1.4693361998070031,5,5.590094699990004,4,8.612350600073114,,space,8.217340899864212,,space,2.2223527000751346,Qwen-VL-Chat,28.2,4.333333333333333,28,The quote on the image is: "My goal is not to be better than anyone else, but to be better than I used to be." - Wayne Dyer,0,0,0
+28,28.2,"The quote on the image is: "My goal is not to be better than anyone else, but to be better than I used to be." - Wayne Dyer",4.333333333333333,Qwen-VL-Chat,3,3.4612996999640018,2,4.938409599941224,2,6.724452199880034,,space,13.15936529985629,,space,0.6270153000950813,VisualGLM-6b,28.1,2.333333333333333,28,My goal is not to be better than anyone else, but rather to use my own abilities and passions in order to achieve success. I am a person who values self-improvement and growth as much as others do. The phrase "my goal is not to be better than anyone else" reflects my determination for personal development and progress. It emphasizes that I will strive to improve myself regardless of external factors or competition.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+5,5.1,"The image features a man and a young boy sitting at a table, enjoying a meal together. The man is holding a doughnut, while the boy is holding a bagel. They are both sitting at the table, surrounded by various food items, including a plate of doughnuts, a bagel, and a cup of coffee. There are also a few other doughnuts scattered around the table, indicating that they are part of the meal. The scene is warm and inviting, showcasing a father and son enjoying a casual meal together.",4.333333333333333,instructblip-vicuna-13b,3,3.818795599974692,3,5.531450300011784,3,6.880177200073376,,space,30.37927330005914,,space,1.7019027001224458,instructblip-vicuna-13b,5.1,4.333333333333333,5,The image features a man and a young boy sitting at a table, enjoying a meal together. The man is holding a doughnut, while the boy is holding a bagel. They are both sitting at the table, surrounded by various food items, including a plate of doughnuts, a bagel, and a cup of coffee. There are also a few other doughnuts scattered around the table, indicating that they are part of the meal. The scene is warm and inviting, showcasing a father and son enjoying a casual meal together.,0,0,0
+5,5.2,"The main element of this image is a man and a young boy sitting at a table, enjoying breakfast together. They are both eating doughnuts with sprinkles on them while they enjoy their meal. This scene suggests that they might be spending time as family members or friends who share common interests such as food.",3.666666666666667,VisualGLM-6b,5,2.4399053999222815,5,3.498585700057447,4,4.7962476999964565,,space,16.588706400012597,,space,0.17639859998598695,VisualGLM-6b,5.2,3.666666666666667,5,The main element of this image is a man and a young boy sitting at a table, enjoying breakfast together. They are both eating doughnuts with sprinkles on them while they enjoy their meal. This scene suggests that they might be spending time as family members or friends who share common interests such as food.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+30,30.1,"The main topic of the report mentioned in the image is "Access to Justice for Internally Displaced and Ethnic Minority Women." The report appears to be an analytical study conducted in 2015, focusing on the challenges and issues faced by women who are internally displaced or belong to ethnic minorities in accessing justice.",4.666666666666667,gpt-4v,4,1.0767961000092328,5,2.840651399921626,4,4.7933789999224246,,space,21.834530799882486,,space,0.22016409994103014,gpt-4v,30.1,4.666666666666667,30,The main topic of the report mentioned in the image is "Access to Justice for Internally Displaced and Ethnic Minority Women." The report appears to be an analytical study conducted in 2015, focusing on the challenges and issues faced by women who are internally displaced or belong to ethnic minorities in accessing justice.,0,0,0
+30,30.2,"The purple color image shows a woman standing on top of a mountain, holding a book. She has long hair and wears a black dress with white sleeves. The background appears to be a dark forest or a deep blue sky.",2.333333333333333,VisualGLM-6b,1,1.4739405000582337,1,2.1069130001123995,1,2.7765514000784606,,space,10.938430099980906,,space,0.1972025998402387,VisualGLM-6b,30.2,2.333333333333333,30,The purple color image shows a woman standing on top of a mountain, holding a book. She has long hair and wears a black dress with white sleeves. The background appears to be a dark forest or a deep blue sky.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+27,27.1,"The possible theme of this image could be a casual meal, as it features two plates with different dishes on them. One plate contains a sandwich and fries while another has a salad and a side dish like rice or beans. These dishes are served in cups and bowls on white dining tables, which suggests that they might be part of an evening gathering or social event where people enjoy their meals together.",4.333333333333333,VisualGLM-6b,4,6.675165500026196,3,5.136643799953163,2,1.6761679998598993,,space,44.63078060001135,,space,1.1310712997801602,gpt-4v,27.2,3.666666666666667,27,The image appears to be centered around a meal at a restaurant, featuring what looks like a sandwich possibly with pulled pork, served with French fries and a side of coleslaw, accompanied by a small bowl of sauce. On the other plate, there seems to be a rice dish with vegetables and grilled chicken breast, served with slices of toasted bread. The drinks visible are likely soft drinks. The theme suggests a casual dining experience, possibly at an American-style restaurant or diner, with a focus on hearty, comfort food dishes.,0,0,0
+27,27.2,"The image appears to be centered around a meal at a restaurant, featuring what looks like a sandwich possibly with pulled pork, served with French fries and a side of coleslaw, accompanied by a small bowl of sauce. On the other plate, there seems to be a rice dish with vegetables and grilled chicken breast, served with slices of toasted bread. The drinks visible are likely soft drinks. The theme suggests a casual dining experience, possibly at an American-style restaurant or diner, with a focus on hearty, comfort food dishes.",3.666666666666667,gpt-4v,4,2.4775559999980032,4,11.131959200138226,3,10.179695700062439,,space,33.861626599915326,,space,0.7899323999881744,VisualGLM-6b,27.1,4.333333333333333,27,The possible theme of this image could be a casual meal, as it features two plates with different dishes on them. One plate contains a sandwich and fries while another has a salad and a side dish like rice or beans. These dishes are served in cups and bowls on white dining tables, which suggests that they might be part of an evening gathering or social event where people enjoy their meals together.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+20,20.1,"In the image, I can see a variety of furniture, including a couch, a chair, and a refrigerator. The couch is located in the living room, while the chair is positioned near the dining table. The refrigerator is situated in the kitchen area. Additionally, there is a TV in the living room, which adds to the cozy and functional setup of the space. The presence of these items indicates that the room is designed to accommodate both relaxation and dining activities, making it a versatile and comfortable living space.",2.333333333333333,LLaVA-RLHF-13b-v1.5-336,3,2.1372601999901235,4,6.371215299936011,3,8.25249439990148,,space,51.01495119999163,,space,0.20628040004521608,LLaVA-RLHF-13b-v1.5-336,20.1,2.333333333333333,20,In the image, I can see a variety of furniture, including a couch, a chair, and a refrigerator. The couch is located in the living room, while the chair is positioned near the dining table. The refrigerator is situated in the kitchen area. Additionally, there is a TV in the living room, which adds to the cozy and functional setup of the space. The presence of these items indicates that the room is designed to accommodate both relaxation and dining activities, making it a versatile and comfortable living space.,0,0,0
+20,20.2,"In this image, I can see a couch, a chair, and a refrigerator. The couch is brown, and the chair is black. The refrigerator is white, and it is placed in the kitchen area.",3.666666666666667,LLaVA-RLHF-7b-v1.5-224,4,0.8964261000510305,4,1.7254788000136614,4,2.786702400073409,,space,9.144684300059453,,space,0.18959950003772974,LLaVA-RLHF-7b-v1.5-224,20.2,3.666666666666667,20,In this image, I can see a couch, a chair, and a refrigerator. The couch is brown, and the chair is black. The refrigerator is white, and it is placed in the kitchen area.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+26,26.1,The purpose of the Om chanting mentioned in the image is to meditate and chant deep mantra chants for positive transformation.,3,Qwen-VL-Chat,5,1.3279890001285821,5,3.2655729001853615,4,5.0530665998812765,,space,11.869155399966985,,space,0.3676593001000583,Qwen-VL-Chat,26.1,3,26,The purpose of the Om chanting mentioned in the image is to meditate and chant deep mantra chants for positive transformation.,0,0,0
+26,26.2,"The purpose of the Om chanting in the image is to promote positive transformation and meditation. The group of people is sitting in a circle, focusing on the chant, which is a deep mantra that helps them connect with their inner selves and achieve a state of mindfulness. This practice can lead to personal growth, relaxation, and stress reduction. The image also suggests that the Om chanting is being used as a tool for positive transformation, which can be achieved through meditation and mindfulness practices.",5,llava1.5-13b,4,6.216473600128666,3,4.95020530000329,1,7.518795800162479,,space,15.111873600166291,,space,0.9466032998170704,llava1.5-13b,26.2,5,26,The purpose of the Om chanting in the image is to promote positive transformation and meditation. The group of people is sitting in a circle, focusing on the chant, which is a deep mantra that helps them connect with their inner selves and achieve a state of mindfulness. This practice can lead to personal growth, relaxation, and stress reduction. The image also suggests that the Om chanting is being used as a tool for positive transformation, which can be achieved through meditation and mindfulness practices.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+2,2.1,"The image shows a street scene with traffic signs in the foreground, but there is no visible purple umbrella near any green leaves. It might not be included in the frame of this picture or it might be obscured from view.",1.666666666666667,gpt-4v,5,2.465293399989605,4,4.389670500066131,4,5.856649000197649,,space,16.46907589980401,,space,0.503602399956435,gpt-4v,2.1,1.666666666666667,2,The image shows a street scene with traffic signs in the foreground, but there is no visible purple umbrella near any green leaves. It might not be included in the frame of this picture or it might be obscured from view.,0,0,0
+2,2.2,"Yes, there is a purple umbrella near the green leaves in the image. It appears to be left behind by someone, possibly a pedestrian who forgot it while walking by.",2.333333333333333,llava1.5-13b,1,1.2376154998783022,1,1.7965193998534232,2,3.3224959999788553,,space,8.818425200181082,,space,0.256121400045231,llava1.5-13b,2.2,2.333333333333333,2,Yes, there is a purple umbrella near the green leaves in the image. It appears to be left behind by someone, possibly a pedestrian who forgot it while walking by.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+23,23.1,"This page shows a diagram showing how vehicles use noise and vibration reduction systems to reduce their environmental impact. The diagram includes various components, such as vehicle body, engine, transmission, differentials, and wheels, that are used for noise and vibration reduction.",3,VisualGLM-6b,1,1.531112799886614,1,3.7371888000052422,2,4.778730800142512,,space,14.198238600045443,,space,0.23153640003874898,VisualGLM-6b,23.1,3,23,This page shows a diagram showing how vehicles use noise and vibration reduction systems to reduce their environmental impact. The diagram includes various components, such as vehicle body, engine, transmission, differentials, and wheels, that are used for noise and vibration reduction.,0,0,0
+23,23.2,Title: Vehicle Noise and Vibration Refinement. Topic: Woodhead Publishing in Mechanical Engineering.,5,fuyu-8b,5,1.1289853998459876,5,1.8407978999894112,5,2.9857799001038074,,space,2.6393287000246346,,space,0.20798659999854863,fuyu-8b,23.2,5,23,Title: Vehicle Noise and Vibration Refinement. Topic: Woodhead Publishing in Mechanical Engineering.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+11,11.1,The predominant airplane on display is blue.,2,llava1.5-13b,5,0.7973317999858409,5,1.4564877999946475,5,2.169002799782902,,space,3.502976299962029,,space,0.25120489997789264,gpt-4v,11.2,3.333333333333333,11,The predominant airplane on display is blue, with additional stripes in red, white, and green.,0,0,0
+11,11.2,"The predominant airplane on display is blue, with additional stripes in red, white, and green.",3.333333333333333,gpt-4v,5,1.2255909000523388,5,1.9050759000238031,5,2.7526591999921948,,space,3.478323700139299,,space,0.39782000007107854,llava1.5-13b,11.1,2.0,11,The predominant airplane on display is blue.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+3,3.1,"The quote on the image suggests that peace, poetry, and power are important aspects of life. It encourages people to appreciate these qualities and strive to incorporate them into their daily lives. The image features a clock with a rose and a quote, which can be interpreted as a reminder to find balance between the passage of time and the beauty of life. The rose symbolizes love and appreciation, while the clock represents the importance of time and its value in our lives. The combination of these elements in the image serves as a reminder to cherish the moments and make the most of our time on earth.",5,llava1.5-13b,3,9.136165500152856,3,7.915000400040299,2,10.965795600088313,,space,40.42403510003351,,space,0.17165360017679632,llava1.5-13b,3.1,5.0,3,The quote on the image suggests that peace, poetry, and power are important aspects of life. It encourages people to appreciate these qualities and strive to incorporate them into their daily lives. The image features a clock with a rose and a quote, which can be interpreted as a reminder to find balance between the passage of time and the beauty of life. The rose symbolizes love and appreciation, while the clock represents the importance of time and its value in our lives. The combination of these elements in the image serves as a reminder to cherish the moments and make the most of our time on earth.,0,0,0
+3,3.2,"The quote on the image, "Peace, Poetry, and Power," suggests that the person who created the image values peace, poetry, and power in their life. It could be a personal mantra or a statement expressing their beliefs and aspirations.",2.666666666666667,Qwen-VL-Chat,4,3.1722615999169648,5,4.050326700089499,4,6.015474299900234,,space,12.283632700098678,,space,0.7077641999348998,Qwen-VL-Chat,3.2,2.666666666666667,3,The quote on the image, "Peace, Poetry, and Power," suggests that the person who created the image values peace, poetry, and power in their life. It could be a personal mantra or a statement expressing their beliefs and aspirations.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+16,16.1,The quote written in the image is: "forgive yourself for not knowing what you didn't know before you lived through it.",5,LLaVA-RLHF-7b-v1.5-224,5,2.35990049992688,5,3.918228599941358,5,6.726376399863511,,space,6.801039000041783,,space,1.5811046999879181,LLaVA-RLHF-7b-v1.5-224,16.1,5,16,The quote written in the image is: "forgive yourself for not knowing what you didn't know before you lived through it.",0,0,0
+16,16.2,"The quote in the image reads: "Forgive yourself for not knowing what you didn't know before you lived through it. Honor your path. Trust your journey. Learn, grow, evolve, become." It is attributed to someone named Cinda Crawford.",3,gpt-4v,5,0.8616073001176119,5,1.4263121001422405,5,2.4686235000845045,,space,10.181979599874467,,space,0.565215399954468,gpt-4v,16.2,3,16,The quote in the image reads: "Forgive yourself for not knowing what you didn't know before you lived through it. Honor your path. Trust your journey. Learn, grow, evolve, become." It is attributed to someone named Cinda Crawford.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+9,9.1,"The bedroom in the image has a modern and stylish appearance, featuring a large bed with white pillows and a white comforter. The room is dimly lit, creating a cozy and intimate atmosphere. The bed is positioned next to a wall, and there is a lamp on the nightstand, providing additional lighting in the room. The overall ambiance of the bedroom is inviting and comfortable, making it an ideal space for relaxation and rest.",2,llava1.5-13b,4,1.8646748999599367,4,4.227731199935079,3,5.460278399987146,,space,33.68171829986386,,space,1.3467573998495936,llava1.5-13b,9.1,2.0,9,The bedroom in the image has a modern and stylish appearance, featuring a large bed with white pillows and a white comforter. The room is dimly lit, creating a cozy and intimate atmosphere. The bed is positioned next to a wall, and there is a lamp on the nightstand, providing additional lighting in the room. The overall ambiance of the bedroom is inviting and comfortable, making it an ideal space for relaxation and rest.,0,0,0
+9,9.2,"The bedroom in the image has a clean and minimalist appearance, featuring a large bed with white sheets and pillows, which gives it a fresh and inviting look. The room is well-lit, with a light on, creating a cozy atmosphere. The overall atmosphere of the bedroom is calm and relaxing, making it an ideal space for rest and rejuvenation.",4.333333333333333,Qwen-VL-Chat,4,1.294208199949935,4,2.4870028998702765,4,3.7910615000873804,,space,18.93282620003447,,space,0.16557479999028146,Qwen-VL-Chat,9.2,4.333333333333333,9,The bedroom in the image has a clean and minimalist appearance, featuring a large bed with white sheets and pillows, which gives it a fresh and inviting look. The room is well-lit, with a light on, creating a cozy atmosphere. The overall atmosphere of the bedroom is calm and relaxing, making it an ideal space for rest and rejuvenation.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+21,21.1,"There are no birds or clouds visible in the photo you provided. The image shows a toy figure of a surfer on a surfboard against a clear blue sky. If you're looking for a photo with birds and clouds, you may want to try a different image or specify another scene you'd like to see.",1.333333333333333,gpt-4v,4,2.2637938999105245,3,4.251199699938297,3,5.754149500047788,,space,52.63135730009526,,space,0.23270039982162416,LLaVA-RLHF-13b-v1.5-336,21.2,2.333333333333333,21,No, there are no birds in the image. The image features a man on a surfboard, which is placed on a pole or a stick, and he is riding it in the air. The sky in the image is blue and cloudy, but there are no birds visible. The focus of the image is on the man and his surfboard, showcasing his skill and balance as he performs his trick. The presence of a surfboard and a man riding it on a stick or pole suggests that this could be a creative or artistic representation of surfing, or perhaps a unique form of entertainment or advertisement. The image captures the essence of surfing, highlighting the excitement and thrill that comes with the sport, as well as the skill and agility required to perform such a feat.,0,0,0
+21,21.2,"No, there are no birds in the image. The image features a man on a surfboard, which is placed on a pole or a stick, and he is riding it in the air. The sky in the image is blue and cloudy, but there are no birds visible. The focus of the image is on the man and his surfboard, showcasing his skill and balance as he performs his trick. The presence of a surfboard and a man riding it on a stick or pole suggests that this could be a creative or artistic representation of surfing, or perhaps a unique form of entertainment or advertisement. The image captures the essence of surfing, highlighting the excitement and thrill that comes with the sport, as well as the skill and agility required to perform such a feat.",2.333333333333333,LLaVA-RLHF-13b-v1.5-336,2,1.4875443000346422,3,3.4677444000262767,2,4.383335900027305,,space,15.614760800031945,,space,0.6431694999337196,gpt-4v,21.1,1.333333333333333,21,There are no birds or clouds visible in the photo you provided. The image shows a toy figure of a surfer on a surfboard against a clear blue sky. If you're looking for a photo with birds and clouds, you may want to try a different image or specify another scene you'd like to see.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+18,18.1,The clock on the building shows approximately 3:00.,4,gpt-4v,1,22.376599699957296,1,24.36731390003115,1,26.122600100003183,,space,9.247124399989843,,space,0.16310700005851686,Qwen-VL-Chat,18.2,4.666666666666667,18,The clock on the building shows 12:30.,0,0,0
+18,18.2,The clock on the building shows 12:30.,4.666666666666667,Qwen-VL-Chat,5,1.0441990001127124,5,1.745407400187105,5,2.387819900177419,,space,4.248836699873209,,space,0.2585215999279171,gpt-4v,18.1,4.0,18,The clock on the building shows approximately 3:00.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+25,25.1,"The image shows a meal arrangement on a patterned textile surface. At the center is a white, round plate that contains an assortment of food items. There's a can of Fanta with an orange flavor, which seems to be the drink of choice. The food items include what appears to be pasta shells, neatly arranged on one side of the plate, and orange wedges with some of the peel still attached, placed on the opposite side. Additionally, there are orange-colored crackers, contributing to the color theme, and a whole, unpeeled carrot lying beside the other items on the plate. The background textile has a floral pattern with a mix of vibrant colors, adding a decorative backdrop to the meal presentation.",3,gpt-4v,3,7.134782999986783,3,9.307730700122193,2,12.315410000039265,,space,98.86510709999129,,space,0.7407009999733418,LLaVA-RLHF-7b-v1.5-224,25.2,4.333333333333333,25,The image features a dining table with a plate of food, including a variety of snacks and a can of soda. The plate is placed on a table with a colorful cloth, adding a touch of elegance to the scene. There are several carrots scattered across the plate, with some of them placed closer to the edge and others in the middle. Additionally, a few oranges are also present on the plate, adding a pop of color to the arrangement. The can of soda is positioned next to the plate, ready to be enjoyed alongside the snacks. The overall scene is a casual and inviting dining experience, with a mix of healthy and indulgent food options.,0,0,0
+25,25.2,"The image features a dining table with a plate of food, including a variety of snacks and a can of soda. The plate is placed on a table with a colorful cloth, adding a touch of elegance to the scene. There are several carrots scattered across the plate, with some of them placed closer to the edge and others in the middle. Additionally, a few oranges are also present on the plate, adding a pop of color to the arrangement. The can of soda is positioned next to the plate, ready to be enjoyed alongside the snacks. The overall scene is a casual and inviting dining experience, with a mix of healthy and indulgent food options.",4.333333333333333,LLaVA-RLHF-7b-v1.5-224,4,1.040250200079754,4,1.832410299917683,4,2.7408654999453574,,space,39.25112539995462,,space,0.12258560000918806,gpt-4v,25.1,3.0,25,The image shows a meal arrangement on a patterned textile surface. At the center is a white, round plate that contains an assortment of food items. There's a can of Fanta with an orange flavor, which seems to be the drink of choice. The food items include what appears to be pasta shells, neatly arranged on one side of the plate, and orange wedges with some of the peel still attached, placed on the opposite side. Additionally, there are orange-colored crackers, contributing to the color theme, and a whole, unpeeled carrot lying beside the other items on the plate. The background textile has a floral pattern with a mix of vibrant colors, adding a decorative backdrop to the meal presentation.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+15,15.1,The title of Naomi Klein's book is "The Shock Doctrine: The Rise of Disaster Capitalism.",5,gpt-4v,5,0.9826598998624831,5,1.570680599892512,5,2.246520300162956,,space,4.293308899970725,,space,0.27524499990977347,gpt-4v,15.1,5.0,15,The title of Naomi Klein's book is "The Shock Doctrine: The Rise of Disaster Capitalism.",0,0,0
+15,15.2,"The title of NaomiKlein's book "The Shock Doctrine" is "The End of Employment and the Rise of Disaster Capitalism." This book explores how economic policies have become increasingly harmful to human rights, social justice, and environmental sustainability. It argues that the shock doctrine has led to a situation where large-scale industries are being built in developing countries with little regard for local conditions or social implications.",2.333333333333333,VisualGLM-6b,4,6.75797939999029,4,4.201195900095627,4,7.6663079999852926,,space,21.650841900147498,,space,0.2781012998893857,VisualGLM-6b,15.2,2.333333333333333,15,The title of NaomiKlein's book "The Shock Doctrine" is "The End of Employment and the Rise of Disaster Capitalism." This book explores how economic policies have become increasingly harmful to human rights, social justice, and environmental sustainability. It argues that the shock doctrine has led to a situation where large-scale industries are being built in developing countries with little regard for local conditions or social implications.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+7,7.1,Jignesh Jain,5,fuyu-8b,1,2.0981250999029726,1,3.606992800021544,2,4.503109799930826,,space,11.76615669997409,,space,0.25723460013978183,VisualGLM-6b,7.2,2.333333333333333,7,The image shows two people holding hands, one person's hand on top of another. They are smiling and seem to be at peace with each other. This is a beautiful moment that depicts love between two individuals who have been together for some time or even forever.,0,0,0
+7,7.2,"The image shows two people holding hands, one person's hand on top of another. They are smiling and seem to be at peace with each other. This is a beautiful moment that depicts love between two individuals who have been together for some time or even forever.",2.333333333333333,VisualGLM-6b,5,1.5481976000592113,5,2.2295822000596672,5,3.4989476001355797,,space,1.0693272999487817,,space,0.19258460006676614,fuyu-8b,7.1,5.0,7,Jignesh Jain,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+8,8.1,"The prominent objects in the image are a train and a train station. The train is traveling down the tracks, and the train station is situated next to the tracks.",2,LLaVA-RLHF-7b-v1.5-224,4,1.031562800053507,4,1.9923266998957843,4,4.253384599927813,,space,7.493763499893248,,space,0.3295841000508517,fuyu-8b,8.2,4,8,The prominent objects in the image include a train, a station platform, and a train station.,0,0,0
+8,8.2,"The prominent objects in the image include a train, a station platform, and a train station.",4,fuyu-8b,5,1.3189538000151515,5,2.015627699904144,5,2.9078390998765826,,space,10.344733899924904,,space,0.7301159999333322,LLaVA-RLHF-7b-v1.5-224,8.1,2,8,The prominent objects in the image are a train and a train station. The train is traveling down the tracks, and the train station is situated next to the tracks.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+12,12.1,"The man is performing a trick on his skateboard, jumping in the air while riding it.",4.666666666666667,Qwen-VL-Chat,5,1.3696733000688255,5,2.134271099930629,5,2.823510499903932,,space,7.655562000116333,,space,0.21215769997797906,Qwen-VL-Chat,12.1,4.666666666666667,12,The man is performing a trick on his skateboard, jumping in the air while riding it.,0,0,0
+12,12.2,"The man is performing a skateboarding trick known as an "ollie." This is a fundamental skateboarding trick where the rider and board leap into the air without the use of the rider's hands. The trick is executed by snapping the tail of the skateboard down while jumping, which causes the board to pop into the air. It appears that he is doing this on a city street with buildings and clear blue skies in the background.",3.333333333333333,gpt-4v,5,1.4176936999429017,5,2.2831276000943035,5,3.1931758001446724,,space,21.969409900018945,,space,0.25074879988096654,gpt-4v,12.2,3.333333333333333,12,The man is performing a skateboarding trick known as an "ollie." This is a fundamental skateboarding trick where the rider and board leap into the air without the use of the rider's hands. The trick is executed by snapping the tail of the skateboard down while jumping, which causes the board to pop into the air. It appears that he is doing this on a city street with buildings and clear blue skies in the background.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+24,24.1,"In this scene, there is a person reclining on a couch in what appears to be a living room with the lights dimmed. They seem relaxed, possibly watching TV or looking at a mobile device. The individual has one leg crossed over the other and is holding a small dog in their lap, suggesting a moment of rest and companionship. The room is cluttered, with various items strewn about, including on the kitchen counter and the coffee table. This setting gives the impression of a casual, lived-in space where someone is unwinding after a day's activities. The overall atmosphere is one of domestic life and informality.",1,gpt-4v,2,1.599073899909854,2,4.274191100150347,2,5.379784199874848,,space,40.97794339992106,,space,0.4550071000121534,gpt-4v,24.1,1,24,In this scene, there is a person reclining on a couch in what appears to be a living room with the lights dimmed. They seem relaxed, possibly watching TV or looking at a mobile device. The individual has one leg crossed over the other and is holding a small dog in their lap, suggesting a moment of rest and companionship. The room is cluttered, with various items strewn about, including on the kitchen counter and the coffee table. This setting gives the impression of a casual, lived-in space where someone is unwinding after a day's activities. The overall atmosphere is one of domestic life and informality.,0,0,0
+24,24.2,"The image depicts a man and a woman sitting on a couch in a living room. They are facing each other and appear to be engaged in a conversation or watching something together. The couch is positioned in the center of the room, with a dining table and a kitchen area visible in the background. There are several objects scattered around the room, including a TV, a laptop, a cell phone, and a few bottles. A refrigerator can be seen in the kitchen area, and a microwave is also present. The living room is furnished with a chair and a potted plant, adding a touch of greenery to the space.",3,LLaVA-RLHF-7b-v1.5-224,4,3.4689165998715907,5,4.331919600022957,4,5.429140199907124,,space,31.25412829988636,,space,0.33508400013670325,LLaVA-RLHF-7b-v1.5-224,24.2,3,24,The image depicts a man and a woman sitting on a couch in a living room. They are facing each other and appear to be engaged in a conversation or watching something together. The couch is positioned in the center of the room, with a dining table and a kitchen area visible in the background. There are several objects scattered around the room, including a TV, a laptop, a cell phone, and a few bottles. A refrigerator can be seen in the kitchen area, and a microwave is also present. The living room is furnished with a chair and a potted plant, adding a touch of greenery to the space.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+6,6.1,"No, the artist did not include a chicken in this piece. The image features two cows standing next to each other on a dirt road, with a man standing behind them. There are no chickens in the scene. The focus of the image is on the cows and the man, and it does not include any other animals.",5,LLaVA-RLHF-7b-v1.5-224,5,1.2619725000113249,5,2.0094379000365734,5,2.8671632998157293,,space,11.848252999829128,,space,0.3321655998006463,LLaVA-RLHF-7b-v1.5-224,6.1,5,6,No, the artist did not include a chicken in this piece. The image features two cows standing next to each other on a dirt road, with a man standing behind them. There are no chickens in the scene. The focus of the image is on the cows and the man, and it does not include any other animals.,0,0,0
+6,6.2,"No, there is no chicken in this image. The image shows a street scene with cows. There is a white cow with a bell around its neck looking directly at the camera, and another cow in front of it seen from behind. There are also people in the background, but no chickens are visible in the photograph.",4,gpt-4v,5,0.9172554998658597,5,1.5880927999969572,5,2.3214614000171423,,space,16.53276520012878,,space,0.22153749992139637,gpt-4v,6.2,4,6,No, there is no chicken in this image. The image shows a street scene with cows. There is a white cow with a bell around its neck looking directly at the camera, and another cow in front of it seen from behind. There are also people in the background, but no chickens are visible in the photograph.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+14,14.1,"The quote "Little things can grow big" is significant because it emphasizes the importance of paying attention to small details and considering their potential impact. It suggests that seemingly insignificant occurrences or actions can have a significant impact on the bigger picture, and that one should not underestimate the power of small things. This quote can be applied in various contexts, such as personal growth, business, or even global issues, as it reminds us to be mindful of our actions and the potential consequences they may have. It encourages us to take a holistic view of life and recognize the interconnectedness of all things, even if they appear small at first glance.",2.333333333333333,Qwen-VL-Chat,5,1.4566379999741912,5,4.76904879999347,4,4.362538299988955,,space,36.42899469984695,,space,0.9069103999063373,llava1.5-13b,14.2,1.0,14,The quote "Little things can grow big" is significant because it emphasizes the importance of small actions and their potential to have a significant impact over time. In the image, the shadows of four people are cast on the ground, suggesting that even the smallest of individuals can contribute to something bigger. This idea can be applied to various aspects of life, such as personal growth, relationships, or even community development. It serves as a reminder that even the smallest actions or contributions can have a lasting impact and contribute to the growth and success of a larger entity or goal.,0,0,0
+14,14.2,"The quote "Little things can grow big" is significant because it emphasizes the importance of small actions and their potential to have a significant impact over time. In the image, the shadows of four people are cast on the ground, suggesting that even the smallest of individuals can contribute to something bigger. This idea can be applied to various aspects of life, such as personal growth, relationships, or even community development. It serves as a reminder that even the smallest actions or contributions can have a lasting impact and contribute to the growth and success of a larger entity or goal.",1,llava1.5-13b,5,2.9038477998692542,4,4.615134800085798,4,6.613742999965325,,space,45.14176730019972,,space,0.7938675000332296,Qwen-VL-Chat,14.1,2.333333333333333,14,The quote "Little things can grow big" is significant because it emphasizes the importance of paying attention to small details and considering their potential impact. It suggests that seemingly insignificant occurrences or actions can have a significant impact on the bigger picture, and that one should not underestimate the power of small things. This quote can be applied in various contexts, such as personal growth, business, or even global issues, as it reminds us to be mindful of our actions and the potential consequences they may have. It encourages us to take a holistic view of life and recognize the interconnectedness of all things, even if they appear small at first glance.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+29,29.1,Reaching for Home,5,fuyu-8b,5,1.0388719998300076,5,1.6594743998721242,5,2.3468804999720305,,space,3.973608900094405,,space,0.20070230006240308,llava1.5-13b,29.2,2.666666666666667,29,Reaching for Home: Global Learning on Family Reintegration in Low and Lower-Middle Income Countries,0,0,0
+29,29.2,Reaching for Home: Global Learning on Family Reintegration in Low and Lower-Middle Income Countries,2.666666666666667,llava1.5-13b,3,2.8598165998701006,2,4.283812700072303,2,5.705998700112104,,space,1.3716611000709236,,space,0.30149170011281967,fuyu-8b,29.1,5.0,29,Reaching for Home,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+19,19.1,"The man in the image is snowboarding down a snow-covered slope, holding a large red axe or a long stick. He is wearing a plaid shirt and appears to be enjoying his time on the snowy hill. It is not common for snowboarders to carry a large axe or stick while snowboarding, so this unusual combination of snowboarding and carrying a large tool might be a unique aspect of this particular scene. It could be that the man is participating in some kind of special event or demonstration, or perhaps he is using the large red axe for a specific purpose, such as clearing snow or providing some kind of assistance during his snowboarding adventure.",3,LLaVA-RLHF-7b-v1.5-224,3,1.3303706999868155,3,4.441273699980229,3,6.176539899781346,,space,40.374767400091514,,space,0.29902209993451834,LLaVA-RLHF-7b-v1.5-224,19.1,3.0,19,The man in the image is snowboarding down a snow-covered slope, holding a large red axe or a long stick. He is wearing a plaid shirt and appears to be enjoying his time on the snowy hill. It is not common for snowboarders to carry a large axe or stick while snowboarding, so this unusual combination of snowboarding and carrying a large tool might be a unique aspect of this particular scene. It could be that the man is participating in some kind of special event or demonstration, or perhaps he is using the large red axe for a specific purpose, such as clearing snow or providing some kind of assistance during his snowboarding adventure.,0,0,0
+19,19.2,The man in the image is riding skis down a snow-covered slope while holding an ax in his hand.,2.333333333333333,Qwen-VL-Chat,2,6.438692900119349,1,5.708252500044182,2,7.2806081001181155,,space,6.36009950004518,,space,0.2401931998319924,Qwen-VL-Chat,19.2,2.333333333333333,19,The man in the image is riding skis down a snow-covered slope while holding an ax in his hand.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
+﻿related_prompt,n_resp,resp_text,rank,model,Inaccurate_Faithful.response_raw,Inaccurate_Faithful.rt_raw,Not_Helpful_Helpful.response_raw,Not_Helpful_Helpful.rt_raw,ViolentHarmless.response_raw,ViolentHarmless.rt_raw,key_resp_2.duration_raw,key_resp_2.keys_raw,key_resp_2.rt_raw,key_resp_6.duration_raw,key_resp_6.keys_raw,key_resp_6.rt_raw,model_raw,n_resp_raw,rank_raw,related_prompt_raw,resp_text_raw,thisN_raw,thisRepN_raw,thisTrialN_raw
+22,22.1,"The website mentioned in the image is "Google". It appears to be a search engine, and it has an interesting photo of a girl standing next to a flower with a blue sky behind her. There are also words written on the page that mention Google as well.",2,VisualGLM-6b,5,1.7037619999609888,5,2.308014600072056,5,2.992162700043991,,space,2.9980697999708354,,space,0.13513460010290146,Qwen-VL-Chat,22.2,4.333333333333333,22,The website mentioned in the image is www.tamilkavithaial.com.,0,0,0
+22,22.2,The website mentioned in the image is www.tamilkavithaial.com.,4.333333333333333,Qwen-VL-Chat,1,1.2180983000434935,1,1.805932000046596,1,3.159320699982345,,space,11.496249499963596,,space,0.27593589993193746,VisualGLM-6b,22.1,2.0,22,The website mentioned in the image is "Google". It appears to be a search engine, and it has an interesting photo of a girl standing next to a flower with a blue sky behind her. There are also words written on the page that mention Google as well.,1,0,1
+
+extraInfo
+participant,1
+session,001
+date,2025-06-02_10h38.16.146
+expName,TEST_eye_tracker
+psychopyVersion,2024.2.4
+frameRate,59.89078311716363
+expStart,2025-06-02 10h38.37.993834 +0200
